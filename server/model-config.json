@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "apm-staging"
+  },
+  "AccessToken": {
+    "dataSource": "apm-staging",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "apm-staging",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "apm-staging",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "apm-staging",
+    "public": false
+  },
+  "CreatedTest": {
+    "dataSource": "apm-staging",
+    "public": true
+  },
+  "Question": {
+    "dataSource": "apm-staging",
+    "public": true
+  },
+  "TestMapWithQue": {
+    "dataSource": "apm-staging",
+    "public": true
+  }
+}

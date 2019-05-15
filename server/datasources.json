@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "apm-staging": {
+    "host": "cluster0-comck.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://admin:admin1209@cluster0-comck.mongodb.net/test?retryWrites=true",
+    "database": "loopback-mongodb-atlas",
+    "password": "admin1209",
+    "name": "apm-staging",
+    "user": "admin",
+    "connector": "mongodb"
+  }
+}
